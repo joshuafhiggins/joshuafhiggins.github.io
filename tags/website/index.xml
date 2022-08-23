@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Website - Tag - LitlToast&#39;s Blog</title>
+        <link>https://higgy999.github.io/tags/website/</link>
+        <description>Website - Tag - LitlToast&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>joshuafhiggins@gmail.com (LitlToast)</managingEditor>
+            <webMaster>joshuafhiggins@gmail.com (LitlToast)</webMaster><lastBuildDate>Sun, 08 Aug 2021 20:29:20 -0400</lastBuildDate><atom:link href="https://higgy999.github.io/tags/website/" rel="self" type="application/rss+xml" /><item>
+    <title>Catching Up &amp; Centralizing</title>
+    <link>https://higgy999.github.io/general-catchingup/</link>
+    <pubDate>Sun, 08 Aug 2021 20:29:20 -0400</pubDate>
+    <author>LitlToast</author>
+    <guid>https://higgy999.github.io/general-catchingup/</guid>
+    <description><![CDATA[<p>General things I need to do with the site</p>]]></description>
+</item>
+</channel>
+</rss>

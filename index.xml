@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LitlToast&#39;s Blog</title>
+        <link>https://higgy999.github.io/</link>
+        <description>It&#39;s his blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>joshuafhiggins@gmail.com (LitlToast)</managingEditor>
+            <webMaster>joshuafhiggins@gmail.com (LitlToast)</webMaster><lastBuildDate>Sun, 08 Aug 2021 21:21:30 -0400</lastBuildDate>
+            <atom:link href="https://higgy999.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Getting Deja Vu Right Now</title>
+    <link>https://higgy999.github.io/butter-dejavu/</link>
+    <pubDate>Sun, 08 Aug 2021 21:21:30 -0400</pubDate>
+    <author>LitlToast</author>
+    <guid>https://higgy999.github.io/butter-dejavu/</guid>
+    <description><![CDATA[<p>I feel like I wrote this code before&hellip;</p>]]></description>
+</item>
+<item>
+    <title>Catching Up &amp; Centralizing</title>
+    <link>https://higgy999.github.io/general-catchingup/</link>
+    <pubDate>Sun, 08 Aug 2021 20:29:20 -0400</pubDate>
+    <author>LitlToast</author>
+    <guid>https://higgy999.github.io/general-catchingup/</guid>
+    <description><![CDATA[<p>General things I need to do with the site</p>]]></description>
+</item>
+</channel>
+</rss>
