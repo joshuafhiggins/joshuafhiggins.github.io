@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Prank Suite - Category - LitlToast&#39;s Blog</title>
-        <link>https://higgy999.github.io/categories/pranksuite/</link>
-        <description>Prank Suite - Category - LitlToast&#39;s Blog</description>
+        <title>Release - Tag - LitlToast&#39;s Blog</title>
+        <link>https://higgy999.github.io/tags/release/</link>
+        <description>Release - Tag - LitlToast&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>joshuafhiggins@gmail.com (LitlToast)</managingEditor>
-            <webMaster>joshuafhiggins@gmail.com (LitlToast)</webMaster><atom:link href="https://higgy999.github.io/categories/pranksuite/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>joshuafhiggins@gmail.com (LitlToast)</webMaster><lastBuildDate>Sat, 08 Apr 2023 22:12:00 -0400</lastBuildDate><atom:link href="https://higgy999.github.io/tags/release/" rel="self" type="application/rss+xml" /><item>
     <title>Prank Suite Release</title>
     <link>https://higgy999.github.io/prank-suite-release/</link>
     <pubDate>Sat, 08 Apr 2023 22:12:00 -0400</pubDate>
