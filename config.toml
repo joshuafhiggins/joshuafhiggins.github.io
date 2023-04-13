@@ -514,9 +514,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Sitemap config
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = -1
 
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
