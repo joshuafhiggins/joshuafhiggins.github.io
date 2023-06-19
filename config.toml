@@ -1,10 +1,10 @@
-baseURL = "https://higgy999.github.io"
+baseURL = "https://joshuafhiggins.github.io"
 
 # theme
 theme = "LoveIt"
 
 # website title
-title = "LitlToast's Blog"
+title = "Joshua's Blog"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
@@ -34,7 +34,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
-  name = "LitlToast"
+  name = "Joshua Higgins"
   email = "joshuafhiggins@gmail.com"
   link = "/"
 
@@ -72,7 +72,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/higgy999/higgy999.github.io"
+  gitRepo = "https://github.com/joshuafhiggins/joshuafhiggins.github.io"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # ["sha256", "sha384", "sha512", "md5"]
@@ -80,7 +80,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "LitlToast's Blog"
+  title = "Joshua's Blog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "It's his blog"
   # website images for Open Graph and Twitter Cards
@@ -97,7 +97,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = "LitlToast"
+      name = "Joshua Higgins"
       # you can add extra information before the name (HTML format is supported), such as icons
       # pre = '<img src="/images/dark-avatar.png" width="25" height="25">'
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -410,7 +410,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = "LitlToast"
+        name = "Joshua Higgins"
         logoUrl = "/images/dark-avatar.png"
 
   # TypeIt config
@@ -619,7 +619,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "higgy999"
+        GitHub = "joshuafhiggins"
         #Twitter = "ModsToasty"
         Youtubechannel = "UCIk0qQcaVTxhfTD9sK_0PtQ"
         Email = "joshuafhiggins@gmail.com"

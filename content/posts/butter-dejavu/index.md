@@ -22,7 +22,7 @@ I feel like I wrote this code before...
 
 <!--more-->
 
-Up until last week, I have been working on the base rendering, textures, and 3D projection which all felt vaguely familiar (*cough cough..[TF2 OpenGL & Java](https://github.com/higgy999/tf2-opengl)..cough cough*). As well as a basis for mod loading.
+Up until last week, I have been working on the base rendering, textures, and 3D projection which all felt vaguely familiar (*cough cough..[TF2 OpenGL & Java](https://github.com/joshuafhiggins/tf2-opengl)..cough cough*). As well as a basis for mod loading.
 
 But for this week, I didn't do much (*less than I wanted to*) but I did do research into physics, cameras, model loading, and entity component systems/ECS.
 
