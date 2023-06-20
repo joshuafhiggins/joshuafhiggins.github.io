@@ -39,7 +39,7 @@ NOTE: This software can be used maliciously. I am no way responsible for the use
 - Ability to transfer files for all pranks
 
 ## Setup
-1. Download the source code from [GitHub](https://github.com/higgy999/PrankSuite)
+1. Download the source code from [GitHub](https://github.com/joshuafhiggins/PrankSuite)
 2. Open the project in IntelliJ and change the `SERVER_IP` in `PSClient.java` to your computers local IP address
 3. Build the server and client artifacts
 4. Download [JavaFX SDK](https://gluonhq.com/products/javafx/) and extract it somewhere safe

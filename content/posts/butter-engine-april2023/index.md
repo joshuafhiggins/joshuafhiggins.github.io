@@ -7,23 +7,24 @@ draft: true
 
 # author: "LitlToast"
 # authorLink: "https://higgy999.github.io"
-description: "Description"
+description: "A lot has changed, let's jump right in."
 images: []
 resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["Tag"]
-categories: ["Project"]
-
-lightgallery: true
-
 #For this example to not be shown:
 hiddenFromHomePage: true
 hiddenFromSearch: true
+
+tags: ["Butter Engine", "Update", "Programming"]
+categories: ["butterengine"]
+
+lightgallery: true
 ---
 
-Description
+A lot has changed, let's jump right in.
+
 Butter Engine (Java): UI, Physics, and Maps Post
 Now in Rust, Java struggles
 Whats Rust Like
