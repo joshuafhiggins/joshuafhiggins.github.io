@@ -1,11 +1,9 @@
 ---
 title: "Cllick Counter v2.4.0 Release"
-date: 2023-06-21T12:00:00-04:00
-lastmod: 2023-06-21T12:00:00-04:00
-# date: 2023-06-23T12:00:00-04:00
-draft: true
+date: 2023-06-23T12:00:00-04:00
+lastmod: 2023-06-23T12:00:00-04:00
 
-description: "Description"
+description: "Right clicks, general refactor, more stable/modern codebase, QOL features."
 images: []
 resources:
 - name: "featured-image"
@@ -17,7 +15,7 @@ categories: ["clickcounter"]
 lightgallery: true
 ---
 
-Description
+Right clicks, general refactor, more stable/modern codebase, QOL features.
 
 <!--more-->
 
