@@ -13,10 +13,6 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-#For this example to not be shown:
-hiddenFromHomePage: true
-hiddenFromSearch: true
-
 tags: ["Butter Engine", "Update", "Programming"]
 categories: ["butterengine"]
 
