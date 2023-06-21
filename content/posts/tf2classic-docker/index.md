@@ -1,7 +1,7 @@
 ---
 title: "TF2 Classic Dedicated Server - Docker Image"
-date: 2023-06-21T12:00:00-04:00
-lastmod: 2022-08-21T12:00:00-04:00
+date: 2023-06-23T12:00:00-04:00
+lastmod: 2022-08-23T12:00:00-04:00
 # date: YEAR-MONTH-DAYTHOUR:MINUTE:SECOND-04:00
 draft: true
 
