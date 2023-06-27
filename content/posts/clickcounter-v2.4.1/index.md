@@ -2,7 +2,6 @@
 title: "Cllick Counter v2.4.1 Release"
 date: 2023-06-24T12:00:00-04:00
 lastmod: 2023-06-24T12:00:00-04:00
-draft: true
 
 description: "Bug fixes"
 images: []
