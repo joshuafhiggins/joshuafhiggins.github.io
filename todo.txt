@@ -1,0 +1,8 @@
+fix categories, rename to projects, images for them, colors for badges
+show tags in archive view
+link to stuff on right menu
+add socials
+add links
+new css
+new images
+homepage
