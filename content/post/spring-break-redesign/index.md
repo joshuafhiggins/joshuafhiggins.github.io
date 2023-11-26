@@ -10,8 +10,8 @@ draft: false
 description: "I made no posts for the rest of 2022, since the last redesign, and then I felt like redesigning the site again. (AI generated image btw)"
 image: "featured-image.png"
 
-tags: ["Website", "General"]
-categories: ["general"]
+tags: ["Website", "Progress Updates"]
+# categories: ["general"]
 ---
 
 {{< param description >}}

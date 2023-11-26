@@ -10,7 +10,7 @@ draft: false
 description: "The next step in pranking your friends and family."
 image: "featured-image.png"
 
-tags: ["Update", "Release", "Programming"]
+tags: ["Releases"]
 categories: ["pranksuite"]
 ---
 

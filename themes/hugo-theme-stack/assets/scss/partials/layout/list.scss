@@ -69,3 +69,28 @@
         }
     }
 }
+
+.subsection-list-tags {
+    overflow-x: auto;
+
+    .article-list--tile {
+        display: flex;
+        padding-bottom: 15px;
+
+        article {
+            width: 250px;
+            // height: 75px;
+            margin-right: 20px;
+            flex-shrink: 0;
+
+            .article-title {
+                margin: 0;
+                font-size: 1.8rem;
+            }
+
+            .article-details {
+                padding: 20px;
+            }
+        }
+    }
+}

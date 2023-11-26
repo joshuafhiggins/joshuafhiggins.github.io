@@ -6,8 +6,8 @@ lastmod: 2022-08-21T19:00:00-04:00
 description: "TF2C dedicated server image, made from cm2network's TF2 image. Art by Hunter R. Thompson"
 image: "featured-image.png"
 
-tags: ["Docker", "Releases", "TF2 Classic"]
-categories: ["General"]
+tags: ["Releases"]
+categories: ["docker"]
 ---
 
 {{< param description >}}

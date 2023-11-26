@@ -7,7 +7,7 @@ draft: false
 description: "I feel like I wrote this code before..."
 image: "featured-image.png"
 
-tags: ["Butter Engine", "Update", "Programming"]
+tags: ["Progress Updates"]
 categories: ["butterengine"]
 
 lightgallery: false

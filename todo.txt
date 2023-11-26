@@ -1,6 +1,2 @@
-fix categories, rename to projects, images for them, colors for badges
-show tags in archive view
-link to stuff on right menu
-new css
-new images
-homepage
+new css, fonts
+include vibrant.js in build

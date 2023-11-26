@@ -7,8 +7,8 @@ draft: false
 description: "General things I need to do with the site"
 image: "featured-image.png"
 
-tags: ["Website", "General"]
-categories: ["general"]
+tags: ["Website", "Progress Updates"]
+# categories: ["general"]
 ---
 
 {{< param description >}}

@@ -7,8 +7,8 @@ draft: false
 description: "Hopefully this will not be a yearly tradition of me updating the site, making one post, and leaving it untouched."
 image: "featured-image.png"
 
-tags: ["Website", "Update"]
-categories: ["general"]
+tags: ["Website", "Progress Updates"]
+# categories: ["general"]
 
 toc: false
 ---
