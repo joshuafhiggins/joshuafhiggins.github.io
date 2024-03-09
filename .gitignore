@@ -1,5 +1,5 @@
 # Generated files by hugo
-/resources
+/resources/
 
 # Temporary lock file while building
 /.hugo_build.lock
