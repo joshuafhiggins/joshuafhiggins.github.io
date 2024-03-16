@@ -1,0 +1,54 @@
+# Configure main menu and social menu
+[[main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+[main.params]
+icon = "home"
+newtab = false
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+weight = 1
+url = "https://github.com/joshuafhiggins"
+
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "youtube"
+name = "YouTube"
+weight = 2
+url = "https://www.youtube.com/channel/UCIk0qQcaVTxhfTD9sK_0PtQ"
+
+[social.params]
+icon = "brand-youtube"
+
+[[social]]
+identifier = "discord"
+name = "Discord"
+weight = 4
+url = "https://discord.com/invite/b48D4m8jNs"
+
+[social.params]
+icon = "brand-discord"
+
+[[social]]
+identifier = "email"
+name = "Email"
+weight = 3
+url = "joshuafhiggins@gmail.com"
+
+[social.params]
+icon = "mail"
+
+[[social]]
+identifier = "rss"
+name = "RSS"
+weight = 5
+url = "/index.xml"
+
+[social.params]
+icon = "rss"

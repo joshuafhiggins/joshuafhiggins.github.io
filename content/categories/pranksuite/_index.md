@@ -1,9 +1,14 @@
 ---
 title: "Prank Suite"
+image: "featured-image.png"
 ---
 *[Formally, Weeb Detector](https://www.youtube.com/embed/grI_YSRRoBY) was a prank I made to use on my brother, since he started watching anime. He deserved this punishment fully. I made a video on how to set it up and a code walk-through aswell.*
 
 NOTE: This software can be used maliciously. I am no way responsible for the use of this software and encourage its use in good faith.
+
+style: 
+    background: "#6b69d6"
+    color: "#fff"
 
 ## Features
 - See and close open user's windows
