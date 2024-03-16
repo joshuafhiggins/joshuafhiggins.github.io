@@ -9,6 +9,7 @@
 
     .main-article {
         background: var(--card-background);
+        backdrop-filter: blur(10px);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
         overflow: hidden;

@@ -11,12 +11,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #f5f5fa;
+    --body-background: #fbfbfe;
 
-    --accent-color: #34495e;
-    --accent-color-darker: #2c3e50;
+    --accent-color: #443dff;
+    --accent-color-darker: #2f27ce;
     --accent-color-text: #fff;
-    --body-text-color: #707070;
+    --body-text-color: #040316;
 
     --tag-border-radius: 4px;
 
@@ -26,14 +26,19 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
-        --body-background: #303030;
-        --accent-color: #ecf0f1;
-        --accent-color-darker: #bdc3c7;
-        --accent-color-text: #000;
-        --body-text-color: rgba(255, 255, 255, 0.7);
+        --body-background: #010104;
+        --accent-color: #443dff;
+        --accent-color-darker: #3a31d8;
+        --accent-color-text: #fff;
+        --body-text-color: #eae9fc;
         --scrollbar-thumb: hsl(0, 0%, 40%);
         --scrollbar-track: var(--body-background);
     }
+}
+
+@font-face {
+    font-family: Haskoy-Medium;
+    src: url('/fonts/haskoy/Haskoy-Medium.otf');
 }
 
 /**
@@ -43,7 +48,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
-    --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --base-font-family: "Haskoy-Medium", "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
 
@@ -51,10 +56,10 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #fff;
+    --card-background: #dddbff;
     --card-background-selected: #eaeaea;
 
-    --card-text-color-main: #000;
+    --card-text-color-main: #040316;
     --card-text-color-secondary: #747474;
     --card-text-color-tertiary: #767676;
     --card-separator-color: rgba(218, 218, 218, 0.5);
@@ -77,8 +82,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --small-card-padding: 25px;
     }
 
+//         --text: #eae9fc;
+// --background: #010104;
+// --primary: #3a31d8;
+// --secondary: #020024;
+// --accent: #0600c2;
+
     &[data-scheme="dark"] {
-        --card-background: #424242;
+        --card-background: #020024;
         --card-background-selected: rgba(255, 255, 255, 0.16);
         --card-text-color-main: rgba(255, 255, 255, 0.9);
         --card-text-color-secondary: rgba(255, 255, 255, 0.7);
@@ -114,11 +125,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --link-background-opacity: 0.5;
     --link-background-opacity-hover: 0.7;
 
-    --pre-background-color: #272822;
+    --pre-background-color: #020024;
     --pre-text-color: #f8f8f2;
 
-    --code-background-color: rgba(0, 0, 0, 0.12);
-    --code-text-color: #808080;
+    --code-background-color: rgba(255, 255, 255, 0.9);
+    --code-text-color: #201e44;
 
     --table-border-color: #dadada;
     --tr-even-background-color: #efefee;
@@ -126,7 +137,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --kbd-border-color: #dadada;
 
     &[data-scheme="dark"] {
-        --code-background-color: #272822;
+        --link-background-color: 234, 233, 252;
+
+        --code-background-color: #201e44;
         --code-text-color: rgba(255, 255, 255, 0.9);
 
         --table-border-color: #717171;
@@ -149,14 +162,14 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 }
 
 [data-scheme="light"] {
-    --pre-text-color: #272822;
-    --pre-background-color: #fafafa;
+    --pre-text-color: #f8f8f2;
+    --pre-background-color: #272822; //020024
     @import "partials/highlight/light.scss";
 }
 
 [data-scheme="dark"] {
     --pre-text-color: #f8f8f2;
-    --pre-background-color: #272822;
+    --pre-background-color: #272822; //201e44 
     @import "partials/highlight/dark.scss";
 }
 

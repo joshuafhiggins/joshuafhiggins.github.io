@@ -17,7 +17,7 @@ src = "images/avatar.png"
 
 [Params.Footer]
 since = 2019
-customText = "Put leagal stuff maybe"
+customText = "LICENSED UNDER CC BY-NC-SA 4.0"
 
 [Params.Article]
 math = true

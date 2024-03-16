@@ -1,2 +1,0 @@
-new css, fonts
-include vibrant.js in build
