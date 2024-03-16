@@ -1,0 +1,47 @@
+baseURL = 'https://joshuafhiggins.github.com/'
+languageCode = 'en-us'
+title = 'Joshua Higgins'
+theme = "hugo-theme-stack"
+description = "The blog for my programming projects"
+favicon = "/favicon.ico"
+
+[Params.Sidebar]
+compact = false
+emoji = ""
+subtitle = "The blog for my programming projects"
+
+[Params.Sidebar.Avatar]
+enabled = true
+local = true
+src = "images/avatar.png"
+
+[Params.Footer]
+since = 2019
+customText = "LICENSED UNDER CC BY-NC-SA 4.0"
+
+[Params.Article]
+math = true
+toc = true
+readingTime = true
+
+[Params.Article.License]
+enabled = true
+license.default = "Licensed under CC BY-NC-SA 4.0"
+
+[Params.Comments]
+enabled = true
+provider = "utterances"
+
+[Params.Comments.utterances]
+repo = "joshuafhiggins/joshuafhiggins.github.io"
+issueTerm = "pathname"
+label = "[Comment]"
+
+[Params.opengraph.twitter]
+site = "ModsToasty"
+card = "summary"
+
+[Params.defaultImage.opengraph]
+enabled = true
+local = true
+src = "images/banner.png"
