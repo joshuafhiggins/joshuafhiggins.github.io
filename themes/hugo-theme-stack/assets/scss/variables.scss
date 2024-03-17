@@ -22,7 +22,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     --section-separation: 40px;
 
-    --scrollbar-thumb: hsl(0, 0%, 85%);
+    //--scrollbar-thumb: hsl(0, 0%, 85%);
+    --scrollbar-thumb: var(--card-background);
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
@@ -31,7 +32,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --accent-color-darker: #3a31d8;
         --accent-color-text: #fff;
         --body-text-color: #eae9fc;
-        --scrollbar-thumb: hsl(0, 0%, 40%);
+        //--scrollbar-thumb: hsl(0, 0%, 40%);
+        --scrollbar-thumb: var(--card-background);
         --scrollbar-track: var(--body-background);
     }
 }
@@ -56,8 +58,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #dddbff;
-    --card-background-selected: #eaeaea;
+    --card-background: #cfcdf0;
+    --card-background-selected: #dddbff;
 
     --card-text-color-main: #040316;
     --card-text-color-secondary: #747474;
@@ -89,7 +91,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 // --accent: #0600c2;
 
     &[data-scheme="dark"] {
-        --card-background: #020024;
+        --card-background: #171530; //020024
         --card-background-selected: rgba(255, 255, 255, 0.16);
         --card-text-color-main: rgba(255, 255, 255, 0.9);
         --card-text-color-secondary: rgba(255, 255, 255, 0.7);
