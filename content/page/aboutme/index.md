@@ -8,6 +8,7 @@ menu:
             
 comments: false
 license: false
+readingTime: false
 
 ---
 
