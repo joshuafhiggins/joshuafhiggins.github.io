@@ -2,7 +2,7 @@
 title: "The Ultimate Beeper-iMessage Guide: 2024"
 date: 2024-03-24T01:00:00-04:00
 lastmod: 2024-03-24T01:00:00-04:00
-draft: true
+draft: false
 
 description: "The One Guide to Rule Them All (for at least 2024)"
 image: "featured-image.png"
