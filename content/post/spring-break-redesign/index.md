@@ -14,10 +14,6 @@ tags: ["Website", "Progress Updates"]
 # categories: ["general"]
 ---
 
-{{< param description >}}
-
-<!--more-->
-
 ## Updated Website
 
 ```

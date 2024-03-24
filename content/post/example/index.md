@@ -11,6 +11,3 @@ tags: ["Tag"]
 categories: ["Project"]
 ---
 
-{{< param description >}}
-
-<!--more-->

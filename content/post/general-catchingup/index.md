@@ -11,10 +11,6 @@ tags: ["Website", "Progress Updates"]
 # categories: ["general"]
 ---
 
-{{< param description >}}
-
-<!--more-->
-
 ## Catching Up
 There's a lot that hasn't been covered yet on other projects that would just take way too long to write pages and posts for those pages on projects that were canceled or have seen very little progress. I plan on updating this site every week with what I have been up to.
 

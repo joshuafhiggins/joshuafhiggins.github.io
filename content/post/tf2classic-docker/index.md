@@ -10,10 +10,6 @@ tags: ["Releases"]
 categories: ["docker"]
 ---
 
-{{< param description >}}
-
-<!--more-->
-
 I created this Docker image for my own servers, but have released it for anyone to use.
 
 [![Docker Stars](https://img.shields.io/docker/stars/litltoast/tf2-classic.svg)](https://hub.docker.com/r/litltoast/tf2-classic/) [![Docker Pulls](https://img.shields.io/docker/pulls/litltoast/tf2-classic.svg)](https://hub.docker.com/r/litltoast/tf2-classic/) [![](https://img.shields.io/docker/image-size/litltoast/tf2-classic)](https://microbadger.com/images/litltoast/tf2-classic)

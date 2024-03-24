@@ -10,10 +10,6 @@ tags: ["Minecraft", "Modding", "Updates"]
 categories: ["clickcounter"]
 ---
 
-{{< param description >}}
-
-<!--more-->
-
 ## Changelog
 
 ### Positioning

@@ -14,10 +14,6 @@ tags: ["Butter Engine", "Update", "Programming"]
 categories: ["butterengine"]
 ---
 
-{{< param description >}}
-
-<!--more-->
-
 Butter Engine (Java): UI, Physics, and Maps Post
 Now in Rust, Java struggles
 Whats Rust Like
