@@ -6,10 +6,6 @@ image: "featured-image.png"
 
 NOTE: This software can be used maliciously. I am no way responsible for the use of this software and encourage its use in good faith.
 
-style: 
-    background: "#6b69d6"
-    color: "#fff"
-
 ## Features
 - See and close open user's windows
 - Trigger popups with custom text
