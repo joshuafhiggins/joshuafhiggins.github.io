@@ -10,10 +10,6 @@ tags: ["Minecraft", "Modding", "Updates"]
 categories: ["clickcounter"]
 ---
 
-{{< param description >}}
-
-<!--more-->
-
 Formally known as Left Click Counter Mod, Click Counter counts your left and right clicks and displays them on your Minecraft HUD. Version 2.4.0 saw the introduction of right clicks, a general refactor, a more stable/modern codebase, and QOL features. Note: a migration of your previous config is needed (located in `.minecraft/config/LeftClickCounter.cfg`). Copy the value in the `SHHH...` key to value in `Clicks` under the `Left` catergory (located in `.minecraft/config/Clicks.cfg`).
 
 ## Changelog
