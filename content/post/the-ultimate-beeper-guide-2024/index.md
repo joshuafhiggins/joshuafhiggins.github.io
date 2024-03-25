@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Beeper-iMessage Guide: 2024"
 date: 2024-03-24T01:00:00-04:00
-lastmod: 2024-03-24T01:00:00-04:00
+lastmod: 2024-03-25T01:00:00-04:00
 draft: false
 
 description: "The One Guide to Rule Them All (for at least 2024)"
@@ -13,7 +13,7 @@ categories: ["guides"]
 toc: true
 ---
 
-Finally at long last, the one guide to iMessage on Android to rule them all, using Beeper Mini, the new Beeper beta app for Android, BlueBubbles, virtual machines, and so much more. This guide will take you from the beginning with no experience and give you a fully working setup with iMessage with all your other chats in Beeper. This was made in collaboration with the amazing people on Matrix chat rooms (`#beepserv:beeper.com` and `#imessage:maunium.net`) that have not only contributed to these open source projects but also made guides that have been synthesized, updated, and simplified here for you.
+Finally at long last, the one guide to iMessage on Android to rule them all, using Beeper Mini, the new Beeper beta app for Android, BlueBubbles, virtual machines, and much more. This guide will take you from the beginning and give you a fully working setup with iMessage with all your other chats in Beeper. This was made in collaboration with the amazing people on Matrix chat rooms (`#beepserv:beeper.com` and `#imessage:maunium.net`) that have not only contributed to these open source projects but also made guides that have been synthesized, updated, and simplified here for you.
 
 ## Beeper Mini
 
@@ -26,10 +26,10 @@ You may be fine only wanting to use Beeper Mini for iMessage chats and using you
 1. It is recommended to wipe your phone before you begin
 2. Disable your lock screen, there should be no PIN or fingerprint required to unlock the phone
 3. Many have noticed that one of the major selling points of Beeper Mini is broken following the battle against Apple: using iMessage with only your phone number, without an AppleID. This may or may not be the case for you but in any event we are going to preemptively use a hack to work around it.
-    1. Create a burner AppleID on your iPhone, and remained signed into it
+    1. Create a burner AppleID on your iPhone, and remain signed into it
     2. The phone number used for the account doesn’t matter, it may be the same as your main AppleID/your real phone number you use for messaging
     3. If you don’t already have an AppleID before this guide, attempt to create another one on [https://appleid.apple.com/](https://appleid.apple.com/), this will be your “Main AppleID”
-    4. Note: your email for your Main AppleID will constantly be notified that a device named “Beeper Mini” is using iMessage, make a filter to delete or archive them
+    4. Note: your email for your Main AppleID will constantly be notified that a device named “Beeper Mini” is using iMessage, make a filter to delete or archive them if this bothers you
 
 #### Do your jailbreak
 
@@ -54,7 +54,7 @@ If you had tried to login with your AppleID in the past, you would have noticed 
 ### Using Beeper Mini
 1. Download the APK from [https://www.beeper.com/download](https://www.beeper.com/download), latest version at the time of this post is 1.2.58 
     1. This version is important because it adds the ability to force re-register your phone number. If your phone number deregisters from iMessage, you won’t be able to receive iMessage texts and they will instead go to SMS. Using an App Password this will rarely break and will break less often over time as you re-register.
-    2. Later in this guide we set up BlueBubbles which will notify you when your phone number deregisters
+    2. Later in this guide we'll set up BlueBubbles which will notify you when your phone number deregisters
 2. Enter your Beepserv code. If it fails to register your phone number, try again (Beepserv can fail to hook the right functions, doing it again forces it to use the fallback)
 3. If you are asked to sign into Apple, use your Main AppleID and the App Password you created
 
@@ -77,7 +77,7 @@ Note: Ventura is not required to use BlueBubbles but is required if you want to 
 ### Installing Proxmox and Running macOS Ventura
 “Why use Proxmox?” We don’t actually need to, anything x86 with Linux should be fine but this makes VM creation more streamlined and if you want the PC to do anything else, and have the cores and memory to do it, you can just spin up another VM. [i12bretro](https://www.youtube.com/@i12bretro) has easy to follow guides as checklists that I recommend you follow. I’m copying his Ventura one here for your convenience and since Sonoma requires the AVX2 instruction set in order to boot. If you would like to use a different macOS version, you can find it on his website [here](https://i12bretro.github.io/tutorials/).
 
-First install Proxmox Virtual Environment [here](https://www.proxmox.com/en/downloads) (you don’t need to pay, you can use the free version and ignore the prompts). Then follow [these](https://i12bretro.github.io/tutorials/0775.html) steps:
+First install Proxmox Virtual Environment [here](https://www.proxmox.com/en/downloads) (you don’t need to pay, you can use the free version and ignore the prompts). Make a bootable USB and install the OS, you can then manage it headlessly with the web portal at `https://<IP-of-Proxmox-server>:8006` Then follow [these](https://i12bretro.github.io/tutorials/0775.html) steps:
 
 1.  Download a MacOS Ventura .iso [Download](https://archive.org/search.php?query=MacOS%20collection&and[]=mediatype%3A%22software%22) OR create your own [https://youtu.be/JFMvUpdCMwo](https://youtu.be/JFMvUpdCMwo)
 2.  Download KVM OpenCore bootloader [Download](https://github.com/thenickdude/KVM-Opencore/releases)
@@ -156,7 +156,7 @@ You good? Great, let’s lie to Apple
 
 ### Activating iMessage on macOS
 1. Follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios) 
-    1. Make sure the ROM in your config.plist is the MAC address of the NIC you have set in Proxmox, you can go to Settings in macOS to see your MAC address of the NIC
+    1. Make sure the ROM in your config.plist is the MAC address of the NIC you have set in Proxmox, you can go to Settings in macOS to see your MAC address of the NIC, this should still be all lowercase with no colons in your config.plist
 2. Sign in with your Main AppleID
 3. Sign into Messages with your Main AppleID
 4. (Optional) Add your Google account to macOS and sync your contacts
