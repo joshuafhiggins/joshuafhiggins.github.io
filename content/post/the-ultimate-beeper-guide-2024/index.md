@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Beeper-iMessage Guide: 2024"
 date: 2024-03-24T01:00:00-04:00
-lastmod: 2024-03-25T01:00:00-04:00
+lastmod: 2024-03-30T01:00:00-04:00
 draft: false
 
 description: "The One Guide to Rule Them All (for at least 2024)"
@@ -29,7 +29,7 @@ You may be fine only wanting to use Beeper Mini for iMessage chats and using you
     1. Create a burner AppleID on your iPhone, and remain signed into it
     2. The phone number used for the account doesn’t matter, it may be the same as your main AppleID/your real phone number you use for messaging
     3. If you don’t already have an AppleID before this guide, attempt to create another one on [https://appleid.apple.com/](https://appleid.apple.com/), this will be your “Main AppleID”
-    4. Note: your email for your Main AppleID will constantly be notified that a device named “Beeper Mini” is using iMessage, make a filter to delete or archive them if this bothers you
+    4. Note: the email for your Main AppleID will constantly be notified that a device named “Beeper Mini” is using iMessage, make a filter to delete or archive them if this bothers you
 
 #### Do your jailbreak
 
@@ -46,7 +46,7 @@ It is recommended at this point to prevent your phone from sleeping/the screen f
 ### Create an App Password for Your “Main AppleID”
 If you had tried to login with your AppleID in the past, you would have noticed that often Beeper Mini would require you to sign into your account again after only 30 minutes. This is not ideal and seems to be caused by 2FA on AppleIDs and Beeper Mini not handling it well. Luckily, Apple provides App Passwords for logins, so that 2FA isn’t needed and it would go into the regular password field for sign in. Beeper Mini offered this but If you had attempted to create an App Password inside of Beeper Mini when confirming 2FA, the issue would still occur. The solution is to create an App Password manually in iCloud.
 
-1. Go to [https://appleid.apple.com/](https://appleid.apple.com/) amd sign in
+1. Go to [https://appleid.apple.com/](https://appleid.apple.com/) and sign in
 2. Go to Sign-In and Security → App Specific Password → Click the “+” → Give it a name
 3. Put it in your password manager or note app in case your sign-in breaks, this rarely happens though using this method
 
@@ -159,7 +159,6 @@ You good? Great, let’s lie to Apple
     1. Make sure the ROM in your config.plist is the MAC address of the NIC you have set in Proxmox, you can go to Settings in macOS to see your MAC address of the NIC, this should still be all lowercase with no colons in your config.plist
 2. Sign in with your Main AppleID
 3. Sign into Messages with your Main AppleID
-4. (Optional) Add your Google account to macOS and sync your contacts
 
 
 ### Setting up BlueBubbles
@@ -167,23 +166,20 @@ You can also follow their instructions [here](https://bluebubbles.app/install/) 
 
 1. Download the latest release at [https://github.com/BlueBubblesApp/bluebubbles-server/releases](https://github.com/BlueBubblesApp/bluebubbles-server/releases) 
 2. Open it and follow it’s instructions
-3. Make sure you turn on the Private API, in BlueBubbles’ settings check “Keep macOS Awake” and “Startup with macOS”
+3. Make sure you turn on the Private API, “Keep macOS Awake”, and “Startup with macOS”
 4. Download the [BlueBubbles app for Android](https://play.google.com/store/apps/details?id=com.bluebubbles.messaging&hl=en_US&gl=US) 
 5. Go through the setup and connection to your server
 6. It is recommended to turn off your notification on Android except for errors, this way you are only notified of deregisters
 7. Make sure the Private API is enabled in the Android app, if you go to the three dots → Settings → Your name under Profile → you should see all the aliases for your iMessage account, including your phone number from before (if not, force re-register!)
+8. In the mobile app's settings, scroll to the bottom and sync your contacts to the BlueBubbles Server
 
 
 ## Self-Hosting the iMessage Bridge for Beeper Cloud
-1. Open the terminal on your Mac virtual machine
-2. Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-3. Run `brew install go git libolm libheif pkg-config pre-commit ffmpeg`
-4. Download the latest Beeper Bridge Manager [here](https://github.com/beeper/bridge-manager/actions), put it into a folder somewhere, run `chmod +x bbctl-macos-amd64`
-5. Edit your paths with `sudo nano /etc/paths` and add the path to the folder with bbctl
-6. Run `bbctl-macos-amd64 login <your-email-with-Beeper-Cloud>`
-7. In your home directory, `git clone https://github.com/mautrix/imessage.git`
-8. In the `imessage` directory, `bbctl-macos-amd64 run --local-dev --param 'bluebubbles_url=http://localhost:1234' --param 'bluebubbles_password=&lt;your-BlueBubbles-password>' --param 'imessage_platform=bluebubbles' sh-imessage`
+1. Download the latest Beeper Bridge Manager [here](https://github.com/beeper/bridge-manager/actions), put it into a folder somewhere, run `chmod +x bbctl-macos-amd64` in a terminal
+2. Edit your paths with `sudo nano /etc/paths` and add the path to the folder with bbctl
+3. Run `bbctl-macos-amd64 login <your-email-with-Beeper-Cloud>`
+4. In your home directory, `git clone https://github.com/mautrix/imessage.git`
+5. In the `imessage` directory, `bbctl-macos-amd64 run --param 'bluebubbles_url=http://localhost:1234' --param 'bluebubbles_password=<your-BlueBubbles-password>' --param 'imessage_platform=bluebubbles' sh-imessage`
 
-I'd recomend making a GitHub account to subscribe to updates to the [mautrix/imessage](https://github.com/mautrix/imessage) repo for patches or feature updates to the bridges. Update with `git fetch` and `git pull` in the repo and rerun the bbctl command.
 
 And now finally… we're done.
