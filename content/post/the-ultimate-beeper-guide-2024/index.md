@@ -52,7 +52,7 @@ If you had tried to login with your AppleID in the past, you would have noticed 
 
 
 ### Using Beeper Mini
-1. Download the APK from [https://www.beeper.com/download](https://www.beeper.com/download), latest version at the time of this post is 1.2.58 
+1. Download the APK at [https://mini.beeper.com/Beeper_Mini_v1.2.58.apk](https://mini.beeper.com/Beeper_Mini_v1.2.58.apk), latest version at the time of this post is 1.2.58 
     1. This version is important because it adds the ability to force re-register your phone number. If your phone number deregisters from iMessage, you won’t be able to receive iMessage texts and they will instead go to SMS. Using an App Password this will rarely break and will break less often over time as you re-register.
     2. Later in this guide we'll set up BlueBubbles which will notify you when your phone number deregisters
 2. Enter your Beepserv code. If it fails to register your phone number, try again (Beepserv can fail to hook the right functions, doing it again forces it to use the fallback)
