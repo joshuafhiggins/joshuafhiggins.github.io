@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Beeper-iMessage Guide: 2024"
 date: 2024-03-24T01:00:00-04:00
-lastmod: 2024-03-30T01:00:00-04:00
+lastmod: 2024-04-28T01:00:00-04:00
 draft: false
 
 description: "The One Guide to Rule Them All (for at least 2024)"
@@ -15,27 +15,23 @@ toc: true
 
 Finally at long last, the one guide to iMessage on Android to rule them all, using Beeper Mini, the new Beeper beta app for Android, BlueBubbles, virtual machines, and much more. This guide will take you from the beginning and give you a fully working setup with iMessage with all your other chats in Beeper. This was made in collaboration with the amazing people on Matrix chat rooms (`#beepserv:beeper.com` and `#imessage:maunium.net`) that have not only contributed to these open source projects but also made guides that have been synthesized, updated, and simplified here for you.
 
-## Beeper Mini
+## Beeper Mini (Phone Number Registration)
+You may be fine only wanting to use Beeper Mini for iMessage chats and using your other apps for their respective DMs, so we’ll start with that first. There are now two ways of using Beeper Mini: beepserv-rewrite (Jailbreak required) or the new app that can be sideloaded (No Jailbreak!). Beeper no longer provides support for Beeper Mini/Beepserv in general. The new app that can be sideloaded on iPhones is made by [jjtech](https://github.com/JJTech0130) and no support will be given to users. Every since Apple's crackdown on Beeper, don't expect any real support as eveything is community maintained.
 
-### Jailbreaking an iPhone
+Before you get started either option
+1. It is recommended to wipe your phone before you begin either option
+2. **DO NOT SIGN INTO ANY APPLEID IN SETUP** -- signing in can cause instability in phone number registration. When setting up your iPhone after wiping, select "I don't have an AppleID" or any equivalent wording to make sure the iPhone has no AppleID after setup.
+3. Disable your lock screen, there should be no PIN or fingerprint required to unlock the phone
+
+### [Beepserv-rewrite](https://github.com/thatmarcel/beepserv-rewrite) by [thatmarcel](https://github.com/thatmarcel)
 Let’s get the hard part out of the way
 
-You may be fine only wanting to use Beeper Mini for iMessage chats and using your other apps for their respective DMs, so we’ll start with that first. It is recommended that you follow a guide that matches your iPhone or iOS version at [https://ios.cfw.guide/get-started/](https://ios.cfw.guide/get-started/), they maintain updated guides for jailbreaking as projects come and go. **Do not use a video guide for jailbreaking, they are probably outdated!** Make sure you know the name of the Apple Silicon chip your iPhone has, as the guides will refer to it often (search your phone model on Wikipedia).
+It is recommended that you follow a guide that matches your iPhone or iOS version at [https://ios.cfw.guide/get-started/](https://ios.cfw.guide/get-started/), they maintain updated guides for jailbreaking as projects come and go. **Do not use a video guide for jailbreaking, they are probably outdated!** Make sure you know the name of the Apple Silicon chip your iPhone has, as the guides will refer to it often (search your phone model on Wikipedia).
 
-#### Before you get started with the jailbreak
-1. It is recommended to wipe your phone before you begin
-2. Disable your lock screen, there should be no PIN or fingerprint required to unlock the phone
-3. Many have noticed that one of the major selling points of Beeper Mini is broken following the battle against Apple: using iMessage with only your phone number, without an AppleID. This may or may not be the case for you but in any event we are going to preemptively use a hack to work around it.
-    1. Create a burner AppleID on your iPhone, and remain signed into it
-    2. The phone number used for the account doesn’t matter, it may be the same as your main AppleID/your real phone number you use for messaging
-    3. If you don’t already have an AppleID before this guide, attempt to create another one on [https://appleid.apple.com/](https://appleid.apple.com/), this will be your “Main AppleID”
-    4. Note: the email for your Main AppleID will constantly be notified that a device named “Beeper Mini” is using iMessage, make a filter to delete or archive them if this bothers you
+**Do your jailbreak**
 
-#### Do your jailbreak
+You’re done? Good, let’s get Beepserv running.
 
-You’re done? Good, let’s get Beeper server running.
-
-### Setting up [Beepserv-rewrite](https://github.com/thatmarcel/beepserv-rewrite) [by thatmarcel](https://github.com/thatmarcel)
 1. Go to Settings → Messages → and make sure “iMessage” is toggled off
 2. Go to [https://github.com/thatmarcel/beepserv-rewrite/releases](https://github.com/thatmarcel/beepserv-rewrite/releases) and download the latest release deb file on your iPhone. Choose the respective file if you are rootless or rootful (this may have come up during your jailbreak guide, check your guide and come back, it is always recommended to do a rootless jailbreak and is probably what you did)
 3. Open the file with Safari and select Sileo in the share menu to install it, follow through the prompts
