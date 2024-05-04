@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Beeper-iMessage Guide: 2024"
 date: 2024-03-24T01:00:00-04:00
-lastmod: 2024-03-30T01:00:00-04:00
+lastmod: 2024-05-4T01:00:00-04:00
 draft: false
 
 description: "The One Guide to Rule Them All (for at least 2024)"
@@ -15,28 +15,37 @@ toc: true
 
 Finally at long last, the one guide to iMessage on Android to rule them all, using Beeper Mini, the new Beeper beta app for Android, BlueBubbles, virtual machines, and much more. This guide will take you from the beginning and give you a fully working setup with iMessage with all your other chats in Beeper. This was made in collaboration with the amazing people on Matrix chat rooms (`#beepserv:beeper.com` and `#imessage:maunium.net`) that have not only contributed to these open source projects but also made guides that have been synthesized, updated, and simplified here for you.
 
-## Beeper Mini
+# UPDATE 5/4/2024
+Previous instructions in this guide surrounding AppleIDs have been revised. I've personally found 100% stability in having no AppleID on the iPhone running beeperserv-rewrite/the new sideloaded IPA. The previous versions of this page had a work around that is no longer needed, in having a serperate ID for the iPhone and your main one for Beeper Mini. It is now recommened to sign out of your AppleID on the iPhone or factory resetting and go through setup with no ID.
 
-### Jailbreaking an iPhone
+## Beeper Mini (Phone Number Registration)
+You may be fine only wanting to use Beeper Mini for iMessage chats and using your other apps for their respective DMs, so we’ll start with that first. There are now two ways of using Beeper Mini: beepserv-rewrite (Jailbreak required) or the new app that can be sideloaded (No Jailbreak!). Beeper no longer provides support for Beeper Mini/Beepserv in general. The new app that can be sideloaded on iPhones is made by [jjtech](https://github.com/JJTech0130) and no support will be given to users. Ever since Apple's crackdown on Beeper, don't expect any real support as eveything is community maintained.
+
+Before you get started either option
+1. It is recommended to wipe your phone before you begin either option
+2. **DO NOT SIGN INTO ANY APPLEID IN SETUP** -- signing in can cause instability in phone number registration. When setting up your iPhone after wiping, select "I don't have an AppleID" or any equivalent wording to make sure the iPhone has no AppleID after setup.
+3. Disable your lock screen, there should be no PIN or fingerprint required to unlock the phone
+
+### Option 1: [ValidationRelay](https://github.com/JJTech0130/ValidationRelay) by [jjtech](https://github.com/JJTech0130)
+The setup requires another computer, either macOS or Windows, to get working initially. You can use any software that'll use the developer settings on your iPhone to sidelaod an app. Some are AltStore, Sideloadly, and [Sideloader](https://github.com/Dadoum/Sideloader) (Works on Linux!). For this guide we'll use AltStore.
+
+1. Follow the appropiate guide [here](https://faq.altstore.io/) for either macOS or Windows
+2. On your iPhone, download [this installer](/beepserv_installer_v0.1.ipa) and share it to AltStore or open AltStore --> My Apps --> and the "+" icon (note that the installer link is pointing this website, the file was originally posted by Eric Migicovsky in the Beeperserv chatroom and built with [this repo](https://github.com/alfiecg24/Beeper))
+3. Open "Installer" on your homescreen and hit the Install button
+4. There should then be a new app on your homescreen called "Relay" open it and get your Beeper Mini code!
+
+Note: The Relay app uses location permissions always and in the background as a way of always having the registraton relay open, it does not use this location data for anything and can be verified by looking through the code on the ValidationRelay repo. Also, the relay will persist and keep working even if the Installer app or AltStore sideloads expire after 7 days.
+
+### Option 2: [Beepserv-rewrite](https://github.com/thatmarcel/beepserv-rewrite) by [thatmarcel](https://github.com/thatmarcel) (Jailbreak Method)
 Let’s get the hard part out of the way
 
-You may be fine only wanting to use Beeper Mini for iMessage chats and using your other apps for their respective DMs, so we’ll start with that first. It is recommended that you follow a guide that matches your iPhone or iOS version at [https://ios.cfw.guide/get-started/](https://ios.cfw.guide/get-started/), they maintain updated guides for jailbreaking as projects come and go. **Do not use a video guide for jailbreaking, they are probably outdated!** Make sure you know the name of the Apple Silicon chip your iPhone has, as the guides will refer to it often (search your phone model on Wikipedia).
+It is recommended that you follow a guide that matches your iPhone or iOS version at [https://ios.cfw.guide/get-started/](https://ios.cfw.guide/get-started/), they maintain updated guides for jailbreaking as projects come and go. **Do not use a video guide for jailbreaking, they are probably outdated!** Make sure you know the name of the Apple Silicon chip your iPhone has, as the guides will refer to it often (search your phone model on Wikipedia).
 
-#### Before you get started with the jailbreak
-1. It is recommended to wipe your phone before you begin
-2. Disable your lock screen, there should be no PIN or fingerprint required to unlock the phone
-3. Many have noticed that one of the major selling points of Beeper Mini is broken following the battle against Apple: using iMessage with only your phone number, without an AppleID. This may or may not be the case for you but in any event we are going to preemptively use a hack to work around it.
-    1. Create a burner AppleID on your iPhone, and remain signed into it
-    2. The phone number used for the account doesn’t matter, it may be the same as your main AppleID/your real phone number you use for messaging
-    3. If you don’t already have an AppleID before this guide, attempt to create another one on [https://appleid.apple.com/](https://appleid.apple.com/), this will be your “Main AppleID”
-    4. Note: the email for your Main AppleID will constantly be notified that a device named “Beeper Mini” is using iMessage, make a filter to delete or archive them if this bothers you
+**Do your jailbreak**
 
-#### Do your jailbreak
+You’re done? Good, let’s get Beepserv running.
 
-You’re done? Good, let’s get Beeper server running.
-
-### Setting up [Beepserv-rewrite](https://github.com/thatmarcel/beepserv-rewrite) [by thatmarcel](https://github.com/thatmarcel)
-1. Go to Settings → Messages → and make sure “iMessage” is toggled off
+1. Go to Settings → Messages → and make sure “iMessage” is toggled off (If it asks to login then ignore this step and back out of the menu)
 2. Go to [https://github.com/thatmarcel/beepserv-rewrite/releases](https://github.com/thatmarcel/beepserv-rewrite/releases) and download the latest release deb file on your iPhone. Choose the respective file if you are rootless or rootful (this may have come up during your jailbreak guide, check your guide and come back, it is always recommended to do a rootless jailbreak and is probably what you did)
 3. Open the file with Safari and select Sileo in the share menu to install it, follow through the prompts
 4. Open beepserv on your homescreen, that’s your Beeper Mini code! Save it somewhere to copy and paste later
@@ -60,7 +69,7 @@ If you had tried to login with your AppleID in the past, you would have noticed 
 
 Congrats! You have the ability to send iMessage texts on Android. If you want to continue with BlueBubbles and integration into the greater Beeper app, continue on.
 
-## We Need macOS…
+## You'll Need macOS…
 BlueBubbles is a client-server combo that also provides iMessage texts for any platform. They hook into the Messages app on macOS to provide this functionality. In doing so, their mobile app provides notifications for when an iMessage “alias” is deregistered, for example your phone number from Beeper Mini. With [mautrix/imessage](https://github.com/mautrix/imessage), we can have our iMessage chats in Beeper Cloud and even the new Beeper beta app for Android.
 
 There are two options to do this:
