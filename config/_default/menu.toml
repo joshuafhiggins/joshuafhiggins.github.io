@@ -27,15 +27,6 @@ url = "https://www.youtube.com/channel/UCIk0qQcaVTxhfTD9sK_0PtQ"
 icon = "brand-youtube"
 
 [[social]]
-identifier = "discord"
-name = "Discord"
-weight = 4
-url = "https://discord.com/invite/b48D4m8jNs"
-
-[social.params]
-icon = "brand-discord"
-
-[[social]]
 identifier = "email"
 name = "Email"
 weight = 3
