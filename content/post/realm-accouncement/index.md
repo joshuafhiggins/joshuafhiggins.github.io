@@ -35,4 +35,4 @@ Windows builds of the client are available here at [realm.abunchofknowitalls.com
 
 ## Plans for the Future
 
-The current demo is a very rough prototype and plan to redesign the protocol as well as the client in the future. Future posts will detail how each application was designed and my plans on how to remake them.
+The current demo is a very rough prototype and I plan to redesign the protocol as well as the client in the future. Watch out for future posts that will detail how each application was designed and my plans on how to remake them.
