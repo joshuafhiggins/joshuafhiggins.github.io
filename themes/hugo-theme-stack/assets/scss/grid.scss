@@ -91,10 +91,9 @@ main.main {
 .main-container {
     min-height: 100vh;
     align-items: flex-start;
-    padding: 0 15px;
     gap: var(--section-separation);
-    padding-top: var(--main-top-padding);
-    
+    padding: var(--main-top-padding) 15px 0;
+
     @include respond(md) {
         padding: 0 20px;
     }

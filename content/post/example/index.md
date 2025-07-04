@@ -5,7 +5,7 @@ lastmod: 2022-08-21T19:00:00-04:00
 draft: true
 
 description: "Description"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Tag"]
 categories: ["Project"]

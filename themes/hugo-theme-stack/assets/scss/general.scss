@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--body-text-color);
 
     &:hover {
         color: var(--accent-color-darker);
@@ -18,8 +18,6 @@ a {
 
 .section-title {
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
     display: block;
     font-size: 1.6rem;
     font-weight: bold;

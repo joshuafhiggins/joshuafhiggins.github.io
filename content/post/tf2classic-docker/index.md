@@ -4,7 +4,7 @@ date: 2023-06-21T19:00:00-04:00
 lastmod: 2022-08-21T19:00:00-04:00
 
 description: "TF2C dedicated server image, made from cm2network's TF2 image. Art by Hunter R. Thompson"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Releases"]
 categories: ["docker"]
@@ -19,7 +19,7 @@ I created this Docker image for my own servers, but have released it for anyone 
 ## How to use this image
 ### Hosting a simple game server
 
-Running on the *host* interface (recommended):<br/>
+Running on the *host* interface (recommended):
 ```console
 $ docker run -d -it --net=host --name=tf2classic -e SRCDS_TOKEN={YOURTOKEN} litltoast/tf2-classic
 ```
@@ -37,11 +37,12 @@ $ docker run -d -it --net=host --name=tf2classic-2 -e SRCDS_PORT=27016 -e SRCDS_
 ```
 
 `SRCDS_TOKEN` **is required to be listed & reachable. Generate one here using AppID `243750`:**  
-[https://steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers)<br/><br/>
-`SRCDS_WORKSHOP_AUTHKEY` **is required to use workshop features:**  
-[https://steamcommunity.com/dev/apikey](https://steamcommunity.com/dev/apikey)<br/>
+[https://steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers)
 
-**It's also recommended to use "--cpuset-cpus=" to limit the game server to a specific core & thread.**<br/>
+`SRCDS_WORKSHOP_AUTHKEY` **is required to use workshop features:**  
+[https://steamcommunity.com/dev/apikey](https://steamcommunity.com/dev/apikey)
+
+**It's also recommended to use "--cpuset-cpus=" to limit the game server to a specific core & thread.**
 
 ## Configuration
 ### Environment Variables
@@ -75,9 +76,6 @@ If you want to learn more about configuring a TF2 server check this [documentati
 
 ### `tf2-classic:latest`
 This is the only image
-
-## Contributors
-[![Contributors Display](https://badges.pufler.dev/contributors/joshuafhiggins/TF2-Classic?size=50&padding=5&bots=false)](https://github.com/joshuafhiggins/TF2-Classic/graphs/contributors)
 
 ## The Making of the Image
 The original image from cm2network used `git clone` to pull the `entry.sh` script changes into the image. This meant that new containers would not get the entry script changes, unless the whole image was scrapped and rebuilt. Docker doesn't rebuild images if the `Dockerfile` hasn't changed, but the image needs to change if the script has changed. The solution was to simply use the `COPY` command in the `Dockerfile`. Besides that, making the Docker image was smooth. I plan on making one for [my Discord bot](https://discord.gg/b48D4m8jNs) next and to find other cool services to spin up on my home server.

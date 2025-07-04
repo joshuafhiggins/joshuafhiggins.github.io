@@ -5,7 +5,7 @@ lastmod: 2022-08-22T19:13:30-04:00
 draft: false
 
 description: "General things I need to do with the site"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Website", "Progress Updates"]
 # categories: ["general"]

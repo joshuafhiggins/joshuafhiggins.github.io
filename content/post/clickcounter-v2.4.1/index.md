@@ -4,7 +4,7 @@ date: 2023-06-24T12:00:00-04:00
 lastmod: 2023-06-24T12:00:00-04:00
 
 description: "Bug fixes"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Minecraft", "Modding", "Updates"]
 categories: ["clickcounter"]

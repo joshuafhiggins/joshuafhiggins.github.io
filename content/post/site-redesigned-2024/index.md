@@ -5,7 +5,7 @@ lastmod: 2024-03-16T20:10:00-04:00
 draft: false
 
 description: "'Tis tradition."
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Website", "Progress Updates"]
 # categories: ["general"]

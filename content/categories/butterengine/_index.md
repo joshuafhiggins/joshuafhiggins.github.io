@@ -1,6 +1,6 @@
 ---
 title: "Butter Engine"
-image: "featured-image.png"
+image: "featured-image.webp"
 ---
 
 Butter Engine is a game engine made in LWJGL and uses its subset libraries for various tasks. What originally started as a simple rendering library to use LWJGL easier is now becoming a fully-fledged engine and with the hope to fill the same role as Garry's Mod in end-user development.

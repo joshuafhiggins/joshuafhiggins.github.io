@@ -13,7 +13,7 @@ subtitle = "The blog for my programming projects"
 [Params.Sidebar.Avatar]
 enabled = true
 local = true
-src = "images/avatar.png"
+src = "images/avatar.webp"
 
 [Params.Footer]
 since = 2019
@@ -44,4 +44,4 @@ card = "summary"
 [Params.defaultImage.opengraph]
 enabled = true
 local = true
-src = "images/banner.png"
+src = "images/banner.avif"

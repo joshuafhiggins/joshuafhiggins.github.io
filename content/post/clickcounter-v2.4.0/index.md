@@ -4,7 +4,7 @@ date: 2023-06-23T12:00:00-04:00
 lastmod: 2023-06-23T12:00:00-04:00
 
 description: "Right clicks, general refactor, more stable/modern codebase, QOL features."
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Minecraft", "Modding", "Updates"]
 categories: ["clickcounter"]

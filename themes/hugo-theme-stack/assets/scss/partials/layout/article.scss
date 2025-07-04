@@ -14,6 +14,15 @@
         box-shadow: var(--shadow-l1);
         overflow: hidden;
 
+        @media (max-width:768px) {
+            border-radius: unset;
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: none;
+        }
+
         .article-header {
             .article-image {
                 img {
