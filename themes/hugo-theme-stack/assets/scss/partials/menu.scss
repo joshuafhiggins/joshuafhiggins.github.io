@@ -218,6 +218,30 @@
     flex-direction: row;
     gap: 10px;
 
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+        stroke: var(--body-text-color);
+        stroke-width: 1.33;
+    }
+}
+
+.social-menu-waffle {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+
     svg {
         width: 24px;
         height: 24px;

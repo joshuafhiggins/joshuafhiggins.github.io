@@ -90,6 +90,10 @@
     flex-direction: column;
     gap: var(--sidebar-element-separation);
 
+    @media (max-width: 768px) {
+        flex-direction: row;
+    }
+
     @include respond(md) {
         padding: 0;
     }
