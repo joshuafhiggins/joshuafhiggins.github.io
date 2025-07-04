@@ -8,7 +8,7 @@ draft: false
 # author: "LitlToast"
 # authorLink: "https://higgy999.github.io"
 description: "I made no posts for the rest of 2022, since the last redesign, and then I felt like redesigning the site again. (AI generated image btw)"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Website", "Progress Updates"]
 # categories: ["general"]
@@ -28,7 +28,7 @@ Known Bugs:
 - Mobile: Hamburger menu missing when reading a post, this existed before but really shouldn't have
 ```
 
-![The new design!](april2023-website.png)
+![The new design!](april2023-website.webp)
 
 Light theme looks better than before, and better than dark mode in my opinion. The new header bar is inspired by Hearthstone's website too, although I kept some of the old design on mobile. Several changes had to be made to the theme itself, at some point I need to find a way to move all changes that were made to `_override.scss`. Maybe now I'll make an update post for Prank Suite?
 
@@ -36,7 +36,7 @@ Light theme looks better than before, and better than dark mode in my opinion. T
 
 I made a [Discord server](https://discord.gg/b48D4m8jNs)! There's channels for asking for help with Java, Kotlin, and Rust, as well as helpful resources. I encourage everyone to put your favorite resources for the languages in their respective channels. I often forget cool things I find and this will be my way of having a whole list to revisit anytime I want. You can also showcase your projects as a thread in the [`#showcase`](https://discord.gg/b48D4m8jNs) channel. I look forward to seeing you there!
 
-![Music Bot](april2023-bard.png) ![Server Icon](april2023-toaster.png)
+![Music Bot](april2023-bard.webp) ![Server Icon](april2023-toaster.webp)
 
 ## Plans & Current Projects
 

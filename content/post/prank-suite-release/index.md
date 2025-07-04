@@ -8,7 +8,7 @@ draft: false
 # author: "LitlToast"
 # authorLink: "https://higgy999.github.io"
 description: "The next step in pranking your friends and family."
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Releases"]
 categories: ["pranksuite"]

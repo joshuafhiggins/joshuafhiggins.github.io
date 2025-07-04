@@ -5,7 +5,7 @@ lastmod: 2024-05-04T01:00:00-04:00
 draft: false
 
 description: "The One Guide to Rule Them All (for at least 2024)"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Beeper", "Beeper Mini", "iMessage", "BlueBubbles", "Virtual Machines"]
 categories: ["guides"]

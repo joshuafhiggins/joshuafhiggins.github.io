@@ -4,7 +4,7 @@ date: 2024-11-03
 lastmod: 2024-11-03T01:00:00-04:00
 draft: false
 description: Collaborate, Communicate, Connect
-image: featured-image.png
+image: featured-image.webp
 tags:
   - messaging
   - secure

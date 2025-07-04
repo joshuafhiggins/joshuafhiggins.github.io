@@ -1,6 +1,6 @@
 ---
 title: "Prank Suite"
-image: "featured-image.png"
+image: "featured-image.webp"
 ---
 NOTE: This software can be used maliciously. I am no way responsible for the use of this software and encourage its use in good faith.
 

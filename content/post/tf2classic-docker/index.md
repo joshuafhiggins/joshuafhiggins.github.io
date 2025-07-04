@@ -4,7 +4,7 @@ date: 2023-06-21T19:00:00-04:00
 lastmod: 2022-08-21T19:00:00-04:00
 
 description: "TF2C dedicated server image, made from cm2network's TF2 image. Art by Hunter R. Thompson"
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Releases"]
 categories: ["docker"]

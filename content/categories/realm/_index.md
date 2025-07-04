@@ -1,4 +1,4 @@
 ---
 title: Realm
-image: featured-image.png
+image: featured-image.webp
 ---

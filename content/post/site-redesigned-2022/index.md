@@ -5,7 +5,7 @@ lastmod: 2022-08-23T00:09:32-04:00
 draft: false
 
 description: "Hopefully this will not be a yearly tradition of me updating the site, making one post, and leaving it untouched."
-image: "featured-image.png"
+image: "featured-image.webp"
 
 tags: ["Website", "Progress Updates"]
 # categories: ["general"]
